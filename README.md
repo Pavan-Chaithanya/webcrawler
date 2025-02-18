@@ -1,30 +1,22 @@
 # webcrawler
 
 ## Overview
+The Webcrawler is a high-performance Python crawler designed to extract product URLs from e-commerce websites. It supports dynamic content loading and infinite scrolling through Playwright and uses configurable URL discovery strategies.
 
-The **webcrawler** is a simple, high performant crawler written in python for crawling through the e commerce websites to get the product urls. This crawler provides a way to configure the strategy used to determine whether a given url is a product url. This handles the edge cases like infinite scrolls, variations in url structures, etc
+## Prerequisites
+- Python 3.8+
+- Required packages: aiohttp, asyncio, BeautifulSoup4, yaml, playwright, etc... as mentioned in `requirements.txt`
 
-## Requirements
+## Installation & Setup
+1. Clone the repository and navigate to `webcrawler`.
+2. Install dependencies:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
+3. Update `src/config.yaml` with your target sites and URL patterns.
 
-- **Python:** Make sure Python is installed on your machine.
-
-## Installation
-
-To get started with the **web crawler**, follow these steps:
-
-1. Move into the project folder.
-
-2. Once you are in the `webcrawler` folder, run the following command:
-
-```bash
-pip3 install -r requirements.txt
-```
-
-3. You'll find all the required modules installed with this.
-
-4. To run the tool, go into src folder and use the following command:
-
-
+## Running the Crawler
+From the `src` directory, execute:
 ```bash
 python3 main.py
 ```
