@@ -1,0 +1,7 @@
+aiohttp==3.11.12
+beautifulsoup4==4.13.3
+pytest==8.3.4
+pytest-asyncio==0.25.3
+pyyaml==6.0.2
+playwright==1.50.0
+pytest-cov==6.0.0

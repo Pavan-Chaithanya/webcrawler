@@ -1,0 +1,30 @@
+base_urls:
+  - domain: "bluetokaicoffee.com"
+    path: "/collections/roasted-and-ground-coffee-beans"
+    path_validation: True
+  - domain: "jiomart.com"
+    path: ""
+    path_validation: True
+  - domain: "infinite-scroll.com"
+    path: "/demo/full-page"
+    path_validation: False
+
+patterns:
+  - '/product/'
+  - '/item/'
+  - '/p/'
+  - '/dp'
+  - '/products/'
+  - '/prod'
+  - 'shop'
+  - 'buy'
+  - 'store'
+  - 'listing'
+  - 'goods'
+  # - '/blog/'
+
+
+max_depth: 1
+max_scroll: 3
+
+log_level: INFO
